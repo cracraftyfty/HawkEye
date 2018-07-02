@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('Im not gonna say pong bush :>');
+    if (message.content === '/help') {
+    	message.reply('I am under Development As soon as CraftTech will add more commands they will show up here! Stay Connected!!');
   	}
 });
 
